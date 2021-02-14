@@ -10,6 +10,27 @@
 		DB6BAD5625D8F89A00AF1B6F /* TLibCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6BAD4C25D8F89900AF1B6F /* TLibCore.framework */; };
 		DB6BAD5B25D8F89A00AF1B6F /* TLibCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BAD5A25D8F89A00AF1B6F /* TLibCoreTests.swift */; };
 		DB6BAD5D25D8F89A00AF1B6F /* TLibCore.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6BAD4F25D8F89900AF1B6F /* TLibCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB6BAD8725D8F8D000AF1B6F /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BAD6A25D8F8D000AF1B6F /* Logging.swift */; };
+		DB6BAD8825D8F8D000AF1B6F /* StringValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BAD6C25D8F8D000AF1B6F /* StringValue.swift */; };
+		DB6BAD8925D8F8D000AF1B6F /* CardNumberValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BAD6D25D8F8D000AF1B6F /* CardNumberValue.swift */; };
+		DB6BAD8A25D8F8D000AF1B6F /* PhoneValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BAD6E25D8F8D000AF1B6F /* PhoneValue.swift */; };
+		DB6BAD8B25D8F8D000AF1B6F /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BAD6F25D8F8D000AF1B6F /* Value.swift */; };
+		DB6BAD8C25D8F8D000AF1B6F /* TAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BAD7125D8F8D000AF1B6F /* TAppDelegate.swift */; };
+		DB6BAD8D25D8F8D000AF1B6F /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BAD7325D8F8D000AF1B6F /* UIView+Extensions.swift */; };
+		DB6BAD8E25D8F8D000AF1B6F /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BAD7425D8F8D000AF1B6F /* String+Extensions.swift */; };
+		DB6BAD8F25D8F8D000AF1B6F /* UITextView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BAD7525D8F8D000AF1B6F /* UITextView+Extensions.swift */; };
+		DB6BAD9025D8F8D000AF1B6F /* TextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BAD7825D8F8D000AF1B6F /* TextFormatter.swift */; };
+		DB6BAD9125D8F8D000AF1B6F /* DefaultTextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BAD7925D8F8D000AF1B6F /* DefaultTextFormatter.swift */; };
+		DB6BAD9225D8F8D000AF1B6F /* TTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BAD7B25D8F8D000AF1B6F /* TTextField.swift */; };
+		DB6BAD9325D8F8D000AF1B6F /* FormInputListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BAD7D25D8F8D000AF1B6F /* FormInputListener.swift */; };
+		DB6BAD9425D8F8D000AF1B6F /* FormModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BAD7E25D8F8D000AF1B6F /* FormModel.swift */; };
+		DB6BAD9525D8F8D000AF1B6F /* ITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BAD7F25D8F8D000AF1B6F /* ITextView.swift */; };
+		DB6BAD9625D8F8D000AF1B6F /* TTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BAD8025D8F8D000AF1B6F /* TTextView.swift */; };
+		DB6BAD9725D8F8D000AF1B6F /* ITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BAD8125D8F8D000AF1B6F /* ITextField.swift */; };
+		DB6BAD9825D8F8D000AF1B6F /* TStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BAD8225D8F8D000AF1B6F /* TStroke.swift */; };
+		DB6BAD9925D8F8D000AF1B6F /* TView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BAD8325D8F8D000AF1B6F /* TView.swift */; };
+		DB6BAD9A25D8F8D000AF1B6F /* Indexable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BAD8525D8F8D000AF1B6F /* Indexable.swift */; };
+		DB6BAD9B25D8F8D000AF1B6F /* TUIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BAD8625D8F8D000AF1B6F /* TUIProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +50,27 @@
 		DB6BAD5525D8F89A00AF1B6F /* TLibCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLibCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6BAD5A25D8F89A00AF1B6F /* TLibCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLibCoreTests.swift; sourceTree = "<group>"; };
 		DB6BAD5C25D8F89A00AF1B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB6BAD6A25D8F8D000AF1B6F /* Logging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
+		DB6BAD6C25D8F8D000AF1B6F /* StringValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringValue.swift; sourceTree = "<group>"; };
+		DB6BAD6D25D8F8D000AF1B6F /* CardNumberValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardNumberValue.swift; sourceTree = "<group>"; };
+		DB6BAD6E25D8F8D000AF1B6F /* PhoneValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneValue.swift; sourceTree = "<group>"; };
+		DB6BAD6F25D8F8D000AF1B6F /* Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Value.swift; sourceTree = "<group>"; };
+		DB6BAD7125D8F8D000AF1B6F /* TAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAppDelegate.swift; sourceTree = "<group>"; };
+		DB6BAD7325D8F8D000AF1B6F /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		DB6BAD7425D8F8D000AF1B6F /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		DB6BAD7525D8F8D000AF1B6F /* UITextView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Extensions.swift"; sourceTree = "<group>"; };
+		DB6BAD7825D8F8D000AF1B6F /* TextFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFormatter.swift; sourceTree = "<group>"; };
+		DB6BAD7925D8F8D000AF1B6F /* DefaultTextFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultTextFormatter.swift; sourceTree = "<group>"; };
+		DB6BAD7B25D8F8D000AF1B6F /* TTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTextField.swift; sourceTree = "<group>"; };
+		DB6BAD7D25D8F8D000AF1B6F /* FormInputListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormInputListener.swift; sourceTree = "<group>"; };
+		DB6BAD7E25D8F8D000AF1B6F /* FormModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormModel.swift; sourceTree = "<group>"; };
+		DB6BAD7F25D8F8D000AF1B6F /* ITextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITextView.swift; sourceTree = "<group>"; };
+		DB6BAD8025D8F8D000AF1B6F /* TTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTextView.swift; sourceTree = "<group>"; };
+		DB6BAD8125D8F8D000AF1B6F /* ITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITextField.swift; sourceTree = "<group>"; };
+		DB6BAD8225D8F8D000AF1B6F /* TStroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TStroke.swift; sourceTree = "<group>"; };
+		DB6BAD8325D8F8D000AF1B6F /* TView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TView.swift; sourceTree = "<group>"; };
+		DB6BAD8525D8F8D000AF1B6F /* Indexable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Indexable.swift; sourceTree = "<group>"; };
+		DB6BAD8625D8F8D000AF1B6F /* TUIProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TUIProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +113,7 @@
 		DB6BAD4E25D8F89900AF1B6F /* TLibCore */ = {
 			isa = PBXGroup;
 			children = (
+				DB6BAD6825D8F8D000AF1B6F /* TLibs */,
 				DB6BAD4F25D8F89900AF1B6F /* TLibCore.h */,
 				DB6BAD5025D8F89900AF1B6F /* Info.plist */,
 			);
@@ -84,6 +127,106 @@
 				DB6BAD5C25D8F89A00AF1B6F /* Info.plist */,
 			);
 			path = TLibCoreTests;
+			sourceTree = "<group>";
+		};
+		DB6BAD6825D8F8D000AF1B6F /* TLibs */ = {
+			isa = PBXGroup;
+			children = (
+				DB6BAD6925D8F8D000AF1B6F /* Other */,
+				DB6BAD6B25D8F8D000AF1B6F /* Values */,
+				DB6BAD7025D8F8D000AF1B6F /* Delegate */,
+				DB6BAD7225D8F8D000AF1B6F /* Extensions */,
+				DB6BAD7625D8F8D000AF1B6F /* Views */,
+				DB6BAD8425D8F8D000AF1B6F /* Protocols */,
+			);
+			path = TLibs;
+			sourceTree = "<group>";
+		};
+		DB6BAD6925D8F8D000AF1B6F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				DB6BAD6A25D8F8D000AF1B6F /* Logging.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		DB6BAD6B25D8F8D000AF1B6F /* Values */ = {
+			isa = PBXGroup;
+			children = (
+				DB6BAD6C25D8F8D000AF1B6F /* StringValue.swift */,
+				DB6BAD6D25D8F8D000AF1B6F /* CardNumberValue.swift */,
+				DB6BAD6E25D8F8D000AF1B6F /* PhoneValue.swift */,
+				DB6BAD6F25D8F8D000AF1B6F /* Value.swift */,
+			);
+			path = Values;
+			sourceTree = "<group>";
+		};
+		DB6BAD7025D8F8D000AF1B6F /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				DB6BAD7125D8F8D000AF1B6F /* TAppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		DB6BAD7225D8F8D000AF1B6F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DB6BAD7325D8F8D000AF1B6F /* UIView+Extensions.swift */,
+				DB6BAD7425D8F8D000AF1B6F /* String+Extensions.swift */,
+				DB6BAD7525D8F8D000AF1B6F /* UITextView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DB6BAD7625D8F8D000AF1B6F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB6BAD7725D8F8D000AF1B6F /* Formatter */,
+				DB6BAD7A25D8F8D000AF1B6F /* Fields */,
+				DB6BAD8225D8F8D000AF1B6F /* TStroke.swift */,
+				DB6BAD8325D8F8D000AF1B6F /* TView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DB6BAD7725D8F8D000AF1B6F /* Formatter */ = {
+			isa = PBXGroup;
+			children = (
+				DB6BAD7825D8F8D000AF1B6F /* TextFormatter.swift */,
+				DB6BAD7925D8F8D000AF1B6F /* DefaultTextFormatter.swift */,
+			);
+			path = Formatter;
+			sourceTree = "<group>";
+		};
+		DB6BAD7A25D8F8D000AF1B6F /* Fields */ = {
+			isa = PBXGroup;
+			children = (
+				DB6BAD7B25D8F8D000AF1B6F /* TTextField.swift */,
+				DB6BAD7C25D8F8D000AF1B6F /* Models */,
+				DB6BAD7F25D8F8D000AF1B6F /* ITextView.swift */,
+				DB6BAD8025D8F8D000AF1B6F /* TTextView.swift */,
+				DB6BAD8125D8F8D000AF1B6F /* ITextField.swift */,
+			);
+			path = Fields;
+			sourceTree = "<group>";
+		};
+		DB6BAD7C25D8F8D000AF1B6F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DB6BAD7D25D8F8D000AF1B6F /* FormInputListener.swift */,
+				DB6BAD7E25D8F8D000AF1B6F /* FormModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DB6BAD8425D8F8D000AF1B6F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DB6BAD8525D8F8D000AF1B6F /* Indexable.swift */,
+				DB6BAD8625D8F8D000AF1B6F /* TUIProtocol.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +337,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB6BAD8D25D8F8D000AF1B6F /* UIView+Extensions.swift in Sources */,
+				DB6BAD8F25D8F8D000AF1B6F /* UITextView+Extensions.swift in Sources */,
+				DB6BAD9A25D8F8D000AF1B6F /* Indexable.swift in Sources */,
+				DB6BAD9925D8F8D000AF1B6F /* TView.swift in Sources */,
+				DB6BAD9125D8F8D000AF1B6F /* DefaultTextFormatter.swift in Sources */,
+				DB6BAD8825D8F8D000AF1B6F /* StringValue.swift in Sources */,
+				DB6BAD9225D8F8D000AF1B6F /* TTextField.swift in Sources */,
+				DB6BAD9325D8F8D000AF1B6F /* FormInputListener.swift in Sources */,
+				DB6BAD9725D8F8D000AF1B6F /* ITextField.swift in Sources */,
+				DB6BAD8725D8F8D000AF1B6F /* Logging.swift in Sources */,
+				DB6BAD9425D8F8D000AF1B6F /* FormModel.swift in Sources */,
+				DB6BAD8B25D8F8D000AF1B6F /* Value.swift in Sources */,
+				DB6BAD9025D8F8D000AF1B6F /* TextFormatter.swift in Sources */,
+				DB6BAD8E25D8F8D000AF1B6F /* String+Extensions.swift in Sources */,
+				DB6BAD8A25D8F8D000AF1B6F /* PhoneValue.swift in Sources */,
+				DB6BAD9B25D8F8D000AF1B6F /* TUIProtocol.swift in Sources */,
+				DB6BAD8925D8F8D000AF1B6F /* CardNumberValue.swift in Sources */,
+				DB6BAD8C25D8F8D000AF1B6F /* TAppDelegate.swift in Sources */,
+				DB6BAD9625D8F8D000AF1B6F /* TTextView.swift in Sources */,
+				DB6BAD9825D8F8D000AF1B6F /* TStroke.swift in Sources */,
+				DB6BAD9525D8F8D000AF1B6F /* ITextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +553,7 @@
 		DB6BAD6425D8F89A00AF1B6F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 28FGK4336D;
 				INFOPLIST_FILE = TLibCoreTests/Info.plist;
@@ -407,6 +572,7 @@
 		DB6BAD6525D8F89A00AF1B6F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 28FGK4336D;
 				INFOPLIST_FILE = TLibCoreTests/Info.plist;
